@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EierfarmBl</name>
+    </assembly>
+    <members>
+        <member name="T:EierfarmBl.IEileger">
+            <summary>
+            Stellt Eigenschaften und Methoden zum Eilegen bereit.
+            </summary>
+        </member>
+        <member name="P:EierfarmBl.IEileger.Gewicht">
+            <summary>
+            Gewicht des Tiers
+            </summary>
+        </member>
+        <member name="P:EierfarmBl.IEileger.Eier">
+            <summary>
+            Die Eier, die das Tier bereits gelegt hat.
+            </summary>
+        </member>
+        <member name="M:EierfarmBl.IEileger.EiLegen">
+            <summary>
+            Das Tier legt ein Ei.
+            </summary>
+        </member>
+    </members>
+</doc>

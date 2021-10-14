@@ -1,13 +1,17 @@
 ﻿using System;
+using System.Xml.Serialization;
 
 namespace EierfarmBl
 {
     public class Ei
     {
+        private Ei()
+        { }
+
         public Ei(Gefluegel mutter)
         {
             this.Legedatum = DateTime.Today;
-                      
+
             Random random = new Random();
             //VB.NET:
             //Dim random as Random = new Random
@@ -37,9 +41,12 @@ namespace EierfarmBl
 
         // Auto-Property
         // Property mit automatisch generiertem Backing Field
-        public DateTime Legedatum { get; private set; }
+        public DateTime Legedatum { get;  set; }
 
+        [XmlAttribute(AttributeName = "Color")]
         public EiFarbe Farbe { get; set; }
+
+        [XmlIgnore]
         public Gefluegel Mutter { get; set; }
     }
 

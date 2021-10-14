@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Huhn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Gewicht>1551</Gewicht>
+  <Name>Neues Huhn</Name>
+  <Id>87184d09-6ed4-4298-b228-891ef7ef3984</Id>
+  <Eier>
+    <Ei Color="Hell">
+      <Gewicht>61</Gewicht>
+      <Legedatum>2021-10-14T00:00:00+02:00</Legedatum>
+    </Ei>
+    <Ei Color="Hell">
+      <Gewicht>63</Gewicht>
+      <Legedatum>2021-10-14T00:00:00+02:00</Legedatum>
+    </Ei>
+    <Ei Color="Gruen">
+      <Gewicht>51</Gewicht>
+      <Legedatum>2021-10-14T00:00:00+02:00</Legedatum>
+    </Ei>
+    <Ei Color="Dunkel">
+      <Gewicht>74</Gewicht>
+      <Legedatum>2021-10-14T00:00:00+02:00</Legedatum>
+    </Ei>
+  </Eier>
+</Huhn>

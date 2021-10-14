@@ -35,6 +35,8 @@ namespace EierfarmUi
             this.btnFuettern = new System.Windows.Forms.Button();
             this.btnEiLegen = new System.Windows.Forms.Button();
             this.btnNeueGans = new System.Windows.Forms.Button();
+            this.btnSpeichern = new System.Windows.Forms.Button();
+            this.btnSchnabelTier = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNeuesHuhn
@@ -74,6 +76,7 @@ namespace EierfarmUi
             this.btnFuettern.Text = "Füttern";
             this.btnFuettern.UseVisualStyleBackColor = true;
             this.btnFuettern.Click += new System.EventHandler(this.btnFuettern_Click);
+            this.btnFuettern.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnFuettern_MouseMove);
             // 
             // btnEiLegen
             // 
@@ -95,11 +98,33 @@ namespace EierfarmUi
             this.btnNeueGans.UseVisualStyleBackColor = true;
             this.btnNeueGans.Click += new System.EventHandler(this.btnNeueGans_Click);
             // 
+            // btnSpeichern
+            // 
+            this.btnSpeichern.Location = new System.Drawing.Point(623, 689);
+            this.btnSpeichern.Name = "btnSpeichern";
+            this.btnSpeichern.Size = new System.Drawing.Size(225, 69);
+            this.btnSpeichern.TabIndex = 6;
+            this.btnSpeichern.Text = "Speichern";
+            this.btnSpeichern.UseVisualStyleBackColor = true;
+            this.btnSpeichern.Click += new System.EventHandler(this.btnSpeichern_Click);
+            // 
+            // btnSchnabelTier
+            // 
+            this.btnSchnabelTier.Location = new System.Drawing.Point(623, 216);
+            this.btnSchnabelTier.Name = "btnSchnabelTier";
+            this.btnSchnabelTier.Size = new System.Drawing.Size(225, 69);
+            this.btnSchnabelTier.TabIndex = 7;
+            this.btnSchnabelTier.Text = "Schnabeltier";
+            this.btnSchnabelTier.UseVisualStyleBackColor = true;
+            this.btnSchnabelTier.Click += new System.EventHandler(this.btnSchnabelTier_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 48F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(888, 799);
+            this.Controls.Add(this.btnSchnabelTier);
+            this.Controls.Add(this.btnSpeichern);
             this.Controls.Add(this.btnNeueGans);
             this.Controls.Add(this.btnEiLegen);
             this.Controls.Add(this.btnFuettern);
@@ -120,6 +145,8 @@ namespace EierfarmUi
         private System.Windows.Forms.Button btnFuettern;
         private System.Windows.Forms.Button btnEiLegen;
         private System.Windows.Forms.Button btnNeueGans;
+        private System.Windows.Forms.Button btnSpeichern;
+        private System.Windows.Forms.Button btnSchnabelTier;
     }
 }
 
